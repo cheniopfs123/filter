@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			img{
+				width: 400px;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+				/* 滤镜属性 */
+				/* grayscale：设置灰度 */
+				-webkit-filter:grayscale(1) ;
+				transition: all 3s;
+			}
+			img:hover{
+				-webkit-filter: none;
+			}
+			.img1{
+			
+				/* 滤镜属性 */
+				/* grayscale：设置灰度 */
+				-webkit-filter:grayscale(1) ;
+
+			}
+			.img2{
+				/* brightness 亮度  */
+				-webkit-filter: brightness(2);
+			}
+			.img3{
+				/* 褐色属性
+					sepia属性：1是百分之百 正常为0
+				 */
+				-webkit-filter: sepia(1);
+			}
+			.img4{
+				/* 模糊度 */
+				-webkit-filter:blur(50px);
+			}
+			.img5{
+				/* 对比度
+				 contrast对比度正常值是1
+				 */
+				-webkit-filter:contrast(1);
+			}
+			.img6{
+				/* 饱和度 
+				saturate
+				*/
+				-webkit-filter:saturate(2);
+			}
+			.img7{
+				/* 胶片底色效果 */
+				-webkit-filter: invert();
+			}
+			.img8{
+				/*色相旋转 */
+				-webkit-filter: hue-rotate(300deg);
+			}
+			.img10{
+				-webkit-filter: blur(10px) brightness(10) grayscale(1);
+				transition: all 15s;
+			}
+			.img10:hover{
+				-webkit-filter: blur(0px) brightness(1) grayscale(1);
+			}
+		</style>
+	</head>
+	<body>
+		<img class="img1" src="./img/1.png" alt="">
+		<img class="img2" src="./img/1.png" alt="">
+		<img class="img3" src="./img/1.png" alt="">
+		<img class="img4" src="./img/1.png" alt="">
+		<img class="img5" src="./img/1.png" alt="">
+		<img class="img6" src="./img/1.png" alt="">
+		<img class="img7" src="./img/1.png" alt="">
+		<img class="img8" src="./img/1.png" alt="">
+		<img class="img10" src="./img/1.png" alt="">
+	</body>
+</html>
